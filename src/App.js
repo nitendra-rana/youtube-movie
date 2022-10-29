@@ -8,18 +8,15 @@ import {Route, Routes} from 'react-router-dom';
 import Player from "./Components/Pages/Player";
 import ErrorPage from "./Components/Pages/ErrorPage";
 
-
+const URL = "https://api-uat.greatmanagerinstitute.com/api/v2/getTrailerList";
 function App() {
   const [movie, setMovie] = useState([]);
   const [player, setPlayer] = useState("");
   const [title, setTitle] = useState("");
 
-
   useEffect(() => {
     async function fetchData() {
-      const response = await axios.get(
-        "https://api-uat.greatmanagerinstitute.com/api/v2/getTrailerList"
-      );
+      const response = await axios.get(URL);
       setMovie(response.data.data);
     }
     fetchData();
