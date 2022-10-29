@@ -1,0 +1,32 @@
+.header{
+    height: 90px;
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #9F73AB;
+}
+button{
+    margin: 5px;
+    margin-left: 80px;
+    background-color: #A3C7D6;
+    width: 100px;
+    height: 30px;
+    border-radius:10px;
+    border:none;
+}
+span{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.logo{
+    margin:5px;
+    margin-left:0px;
+    padding:5px;
+    
+}
+.name{
+    font-size:60px;
+}

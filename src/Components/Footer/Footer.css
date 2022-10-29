@@ -1,0 +1,19 @@
+.footer{
+    background:#9F73AB;
+    height: 100px;
+    Text-align: center;
+}
+.details{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    margin-right: 50px;
+}
+span{
+    margin: 7px;
+}
+#made{
+    color:wheat;
+}
