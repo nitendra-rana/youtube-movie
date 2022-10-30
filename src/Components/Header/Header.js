@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <Link to="/" style={{"text-decoration": "none"}}>
-          <span className="name">Youtube-movie</span>
+        <Link to="/" style={{"textDecoration": "none"}}>
+          <span className="name">Movies</span>
         </Link>
       </div>
       <Navbar />

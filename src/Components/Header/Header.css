@@ -7,6 +7,9 @@
     align-items: center;
     background-color: #9F73AB;
 }
+.nav{
+    margin-right: 7%;
+}
 button{
     margin: 5px;
     margin-left: 80px;
@@ -22,9 +25,12 @@ span{
 }
 
 .logo{
+    font-family:cursive;
+    background-color: #7964c4;
     margin:5px;
-    margin-left:0px;
-    padding:5px;
+    margin-left:7%;
+    padding:0;
+    border-radius:30px 5px;
     
 }
 .name{

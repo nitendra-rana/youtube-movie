@@ -5,15 +5,15 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="details">
-        <h3>&copy; Youtube-movie</h3>
+        <h3>&copy; Movies</h3>
         <div className="contact">
-        <Link to="/" style={{"text-decoration": "none"}}>
+        <Link to="/" style={{"textDecoration": "none"}}>
           <span>Contact us</span>
           </Link>
-          <Link to="/" style={{"text-decoration": "none"}}>
+          <Link to="/" style={{"textDecoration": "none"}}>
           <span>About us</span>
           </Link>
-          <Link to="/" style={{"text-decoration": "none"}}>
+          <Link to="/" style={{"textDecoration": "none"}}>
           <span>Social Media</span>
         </Link>
           
